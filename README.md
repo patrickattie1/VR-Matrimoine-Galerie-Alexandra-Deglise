@@ -1,19 +1,15 @@
 # VR-HaitianHistoryGallery1-AmericanOccupation, Virtual Gallery as a tribute to the Haitian history, American Occupation, February 2020
 
-Created for CIHDICA in February 2020
+Créé pour le projet Matrimoine en Février 2020
 
-This application's objective is to promote the Haitian history using virtual reality. CIHDICA has been providing content such as archive photos and videos on the subject.
+Cette application a pour objectif de présenter l'influence des femmes dans la production historique, culturelle et artistique de la Caraïbe, l'Afrique et l'Amérique, d'ou son nom Matrimoine Afro-Américano-Caribbéen ou MAAC.
 
-In VR, using an Oculus Quest head mounted display and both its hand controllers (left and right), the user can use the thumbstick on the hand controllers to move around the main scene and push the thumbstick down to accelerate the movement (speedx3, for longer distances)
+Pour en savoir plus sur le projet, l'on peut accéder à https://matrimoine.art ou encore https://www.matrimoine.art.
 
+Dans le cas de cette application, il s'agira de développer une version immersive, utilisant la réalité virtuelle d'une gallerie présentant les oeuvres des femmes des régions sus-mentionnées.
 
-Inside the gallery, the user can see videos applied as textures on virtual movie screens and more than 120 photos from archives provided by CIHDCICA.
-
-This VR application was designed using Unity 2019.2.0f1.
-
-It was built for the folowing platforms:
-- Desktop (Windows 10)
-- WebGL original version (visible at: https://patrickattie.itch.io/HaitiOccupationAmericain, password = hocupame)
-- Oculus Quest head mounted display and left and right hand controllers (buttons used: thumbstick)
-
-For more information and pics from the running app (desktop version), you can look at the wiki or email me at patrick.attie@esih.edu
+Les oeuvres présentes à l'intérieur de cette gallerie y sont accessibles par pays en utilisant les plateformes suivantes:
+- Un casque immersif Oculus Quest et les controllers manuels (gauche et droite) pour les déplacements et la sélection d'objets à l'intérieur de la gallerie;
+- Le web (version WebGL) sur le lien suivant: http://itch.io/  (mot de passe: projetmaac) ou à partir du portail https://matrimoine.art;
+- Un PC utilisant le système d'exploitation Windows (version desktop de type .exe);
+- Un Cyberith Virtualizer permettant littéralement de marcher à l'intérieur de la scène.
