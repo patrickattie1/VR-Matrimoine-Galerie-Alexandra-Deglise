@@ -1,0 +1,2561 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4449387445079082401
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 785975401798018559, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: WholeGallery4
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975401798018558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 78.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975401798018558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975401798018558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -25.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975401798018558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975401798018558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975401798018558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975401798018558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975401798018558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975401798018558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975401798018558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975401798018558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 787186377781328173, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: Hall4
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975402666666219, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: Objects4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604070333793008818, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604070333793008818, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -26.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604070332732043914, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604070332732043914, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604070333854497801, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0513
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604070333854497801, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.666
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604070333854497801, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.271
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604070333854497801, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.30778775
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604070333854497801, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7558274
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604070333854497800, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4b1a51ee07402e34e8adf4961f61cf46,
+        type: 3}
+    - target: {fileID: 785975401941466477, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975401941466477, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975401941466477, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 5.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 785975401941466476, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: 'FEMMES D''HAITI
+
+
+        Gallerie 4 (Contenus: CIHDICA)'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905022796289822540, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall121
+      objectReference: {fileID: 0}
+    - target: {fileID: 2145717195236017250, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.168
+      objectReference: {fileID: 0}
+    - target: {fileID: 2145717195236017250, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.466
+      objectReference: {fileID: 0}
+    - target: {fileID: 2145717195236017250, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.908262
+      objectReference: {fileID: 0}
+    - target: {fileID: 2145717195236017250, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0136604
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791457500954732437, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 87301a36d9b1ec14fb4e69ed27db1442,
+        type: 3}
+    - target: {fileID: 2583667573539158988, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Photo ancienne Mevs
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583667573539158988, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527307968244, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall122
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528839017993, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.166
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528839017993, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.464
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528839017993, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.81818104
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528839017993, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0134053
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528839017992, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c70843fe9d1173b4eb7ad9b541f9c2e7,
+        type: 3}
+    - target: {fileID: 7781242527993403123, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Photo ancienne Mevs
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527993403123, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527993403123, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527993403123, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528322386794, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall123
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528380023169, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.195
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528380023169, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.473
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528380023169, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.35219806
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528380023169, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5433149
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528380023168, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5b9330c1924910041b27a8aef031637c,
+        type: 3}
+    - target: {fileID: 7781242527273895463, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Paysannes Marbial 1948
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527273895463, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527273895463, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527273895463, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527836316933, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall124
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529012501364, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.218
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529012501364, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4723
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529012501364, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3826378
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529012501364, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.79329574
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529012501367, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 206020ae1549ba24bbc2088b13d72800,
+        type: 3}
+    - target: {fileID: 7781242527382534474, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.718
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527382534474, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.114
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527382534581, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "PM Mich\xE8le Pierre-Louis"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527382534581, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527382534581, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527382534581, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528464265794, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528464265805, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.876
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528464265805, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -45.038
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528464265805, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7749001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528464265805, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.4448547
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527861594295, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.456
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527861594295, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4547
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527861594295, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.14915377
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527861594295, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.37941426
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527861594294, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6ac352a892009094c8fec44248431fe6,
+        type: 3}
+    - target: {fileID: 7781242527393002450, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.373
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527393002450, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.264
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527393002461, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "PM Claudette Werleigh, n\xE9e 26 septembre 1946 au Cap Haitien, premi\xE8re
+        \ femme PM\r\n 7 novembre 1995-7 f\uBDF2ier 1996\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527393002461, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527393002461, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527393002461, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527393002461, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527393002461, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527393002461, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527991198267, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall126
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527656862485, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.136
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527656862485, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4812
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527656862485, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.30235195
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527656862485, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.508395
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527656862484, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8db6cf2bd69290149ac11e3e097d5333,
+        type: 3}
+    - target: {fileID: 7781242527519909907, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Princesse Olive
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527519909907, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527519909907, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527519909907, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528256470143, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall127
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527332190041, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.249
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527332190041, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.484
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527332190041, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8495484
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527332190041, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.97247076
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527332190040, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b2f95bb22c34698428514213faf4ccf8,
+        type: 3}
+    - target: {fileID: 7781242527751235790, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527751235785, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Photo ancienne Mevs
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527751235785, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527751235785, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527751235785, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529164695770, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall128
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529122668325, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2201
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529122668325, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4614
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529122668325, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.052330047
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529122668325, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.07048056
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529122668324, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 00f983f0e72182e4d94f808916ac9e38,
+        type: 3}
+    - target: {fileID: 7781242528157021662, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.683
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528157021657, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Pasteur blanc, sa femme et son esclave
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528157021657, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 2.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528157021657, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528157021657, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528157021657, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527785692816, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall129
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528231246142, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.161
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528231246142, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4741
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528231246142, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.39962578
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528231246142, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.52133524
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528231246137, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 84e5f080934012c40a7a3767566441ac,
+        type: 3}
+    - target: {fileID: 7781242528126730715, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "Prostitu\xE9e noire, circa 1912"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528126730715, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528126730715, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528126730715, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527275779971, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall130
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527872737542, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.149
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527872737542, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.467
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527872737542, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.36876407
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527872737542, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.65266424
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527872737537, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7a6de9570d3899742b14d1f0de3b5d37,
+        type: 3}
+    - target: {fileID: 7781242527057050587, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Portrait femme de couleur
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527057050587, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 20.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527057050587, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527057050587, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527057050587, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528761410586, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall131
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528786542692, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.249
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528786542692, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.27670342
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528786542692, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.57919526
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528786542695, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9d2554a3686dc9c47b7d2ac488ef3c01,
+        type: 3}
+    - target: {fileID: 7781242528701423037, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Port au Prince circa 1870
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528701423037, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528701423037, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528701423037, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528576938512, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall132
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527306227318, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1778
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527306227318, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.475
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527306227318, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.14363392
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527306227318, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.31522816
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527306227313, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f88814a6350ae14ebaf17b5dde187ca,
+        type: 3}
+    - target: {fileID: 7781242527871274611, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Port au Prince paysannes (Agence de btv)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527871274611, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527871274611, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527871274611, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527871274611, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527538164101, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall133
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527538164100, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -36.4107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527538164100, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3550146
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529022261960, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.264
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529022261960, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4754
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529022261960, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2741335
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529022261960, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.66159934
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529022261963, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a8aa1f112c453b94d83a175d1e8d2cd0,
+        type: 3}
+    - target: {fileID: 7781242528726373314, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528726373314, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.127
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528726373325, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "Protestant \xE9vang\xE9lique"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528726373325, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528726373325, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528726373325, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528726373325, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528726373325, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528726373325, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.materialCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527998286898, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall134
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527998286909, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -40.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527998286909, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528718622202, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.258
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528718622202, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4717
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528718622202, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.38761383
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528718622202, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.65641946
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528718622181, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4b1a51ee07402e34e8adf4961f61cf46,
+        type: 3}
+    - target: {fileID: 7781242527507402929, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527507402928, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Suzanne Comhaire Sylvain
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527507402928, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 19.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527507402928, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527507402928, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527507402928, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527081887802, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall135
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527441158255, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.261
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527441158255, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.474
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527441158255, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.37845522
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527441158255, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4676021
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527441158254, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b3774479a71940543a4ce95df88f3151,
+        type: 3}
+    - target: {fileID: 7781242528439268970, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.619
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528439268970, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.167
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528439268949, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "Saint Domingue cr\xE9ole blanche \net son esclave domestique Laurent"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528439268949, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: -4.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528439268949, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528439268949, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528439268949, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528439268949, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528439268949, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528235458090, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall136
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529030384050, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.146
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529030384050, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4455629
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529030384050, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6497192
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529030384061, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1a7d08ea120f30d49853282f3d1c50d3,
+        type: 3}
+    - target: {fileID: 7781242528484455251, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.486
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528484455251, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1.5134
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528484455250, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Saint Domingue
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528484455250, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 30.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528484455250, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528484455250, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528484455250, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527978168895, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall137
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527760214245, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.137
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527760214245, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4804
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527760214245, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.34537777
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527760214245, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.72501934
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527760214244, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a006ecbbab5b00a448b07599bd1c3f16,
+        type: 3}
+    - target: {fileID: 7781242528013458201, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Mme Luc Dorsainville
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528013458201, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527748377759, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall138
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528128014672, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.159
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528128014672, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4765
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528128014672, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.265676
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528128014672, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.45353442
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528128014675, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0027cdb568652544d82671c8f04f5985,
+        type: 3}
+    - target: {fileID: 7781242528787849497, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Vaudou
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528787849497, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 38.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528787849497, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528787849497, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528787849497, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528960767923, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall139
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528356973669, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.167
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528356973669, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4769
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528356973669, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.39941514
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528356973669, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6172704
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528356973668, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5b64e5bf588ab1842ac715b6c03ea13b,
+        type: 3}
+    - target: {fileID: 7781242527669197287, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Yanick Lahens
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527669197287, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528599191416, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall160
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527618577206, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.184
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527618577206, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8944407
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527618577201, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c2f5326c3c747243855d421c6778915,
+        type: 3}
+    - target: {fileID: 7781242527141556269, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.631
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527141556269, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.152
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527141556268, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "Pr\xE9sident Fignol\xE9"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527141556268, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 10.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527141556268, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527141556268, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527141556268, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527141556268, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9037416477135432966, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall140
+      objectReference: {fileID: 0}
+    - target: {fileID: 943517682197505576, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.216
+      objectReference: {fileID: 0}
+    - target: {fileID: 943517682197505576, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4621
+      objectReference: {fileID: 0}
+    - target: {fileID: 943517682197505576, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.11806484
+      objectReference: {fileID: 0}
+    - target: {fileID: 943517682197505576, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.16388647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3918745135568029151, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6957920202533644f8d19bb0a8640c64,
+        type: 3}
+    - target: {fileID: 7781242527187995551, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "Bonne Boyer soeur du pr\xE9sident Boyer"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527187995551, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 6.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299294731441044199, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall141
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753751417084293577, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.211
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753751417084293577, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.464
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753751417084293577, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.19367258
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753751417084293577, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.24240911
+      objectReference: {fileID: 0}
+    - target: {fileID: 7403922754541818430, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5ed16a239548a8a42af01fe825fd8d7b,
+        type: 3}
+    - target: {fileID: 7781242528516524991, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528516524990, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "Mme N\xE9morin Pouget n\xE9e Blain"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528516524990, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528516524990, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528516524990, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4440982587571038451, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall142
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607786448273548253, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.189
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607786448273548253, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4819
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607786448273548253, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.32936838
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607786448273548253, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.38912106
+      objectReference: {fileID: 0}
+    - target: {fileID: 8550362847432146986, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c5fd00355189f184c9c85faaf41a275c,
+        type: 3}
+    - target: {fileID: 7781242529108156082, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.489
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529108156082, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529108156093, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "Mme Tir\xE9sias S. Sam ni\xE8ce de Salomon"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529108156093, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: -0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529108156093, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529108156093, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529108156093, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529108156093, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4686117920583878097, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall143
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565506587759693567, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565506587759693567, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.106
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565506587759693567, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565506587759693567, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.19484107
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565506587759693567, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.26115486
+      objectReference: {fileID: 0}
+    - target: {fileID: 720884889251441928, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5ed16a239548a8a42af01fe825fd8d7b,
+        type: 3}
+    - target: {fileID: 7781242528899737775, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4706
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528899737775, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1.6371
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528899737774, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "Exima Gilles, Fondatrice H\xF4pital St Michel"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528899737774, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528899737774, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528899737774, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528899737774, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527495498101, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall144
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528624005782, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528624005782, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.487
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528624005782, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.17848898
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528624005782, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.22481959
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528624005777, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c994744a2ec8f8941b3bfb8d4007d1e1,
+        type: 3}
+    - target: {fileID: 7781242527496176406, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.587
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527496176406, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.194
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527496176401, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "Henriette Jean-Fran\xE7ois \nMme Louis Day"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527496176401, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527496176401, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527496176401, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527496176401, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528209599713, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall145
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528885674413, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.223
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528885674413, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4796
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528885674413, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.08915877
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528885674413, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1090732
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528885674412, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 93cd7447fc7246047bb09ac0318c3198,
+        type: 3}
+    - target: {fileID: 7781242527522366893, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.692
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527522366893, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527522366892, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "Joute Lachenais \nCompagne de P\xE9tion et Boyer"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527522366892, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527522366892, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527522366892, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527522366892, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527513960559, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall146
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527976630883, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.261
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527976630883, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527976630883, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.24648054
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527976630883, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.29726788
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527976630882, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4d6573da7a2983d479236da1553a66ea,
+        type: 3}
+    - target: {fileID: 7781242529091044600, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529091044600, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529091044600, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1.7002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529091044600, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.132
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529091044603, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "Jeanne Gauthier \nPetite fille du Pr\xE9sident Hyppolite"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529091044603, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 4.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529091044603, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529091044603, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529091044603, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529091044603, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529091044603, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528882865953, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall147
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527945552397, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527945552397, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2651419
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527945552397, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.26803493
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527945552396, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 490627cf51642dc4aa04ff92a32bc89a,
+        type: 3}
+    - target: {fileID: 7781242528967540749, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.626
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528967540749, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.173
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528967540748, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "Clara Perez \nMme Jean Price Mars"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528967540748, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528967540748, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528967540748, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528967540748, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528390407695, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall148
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528788090880, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528788090880, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.473
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528788090880, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.365561
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528788090880, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.49587634
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528788090883, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6178db1edfd6fc64dbaff4202faac6f2,
+        type: 3}
+    - target: {fileID: 7781242528830398416, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.7490004
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528830398416, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.084
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528830398419, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Mme Louis Dorsinville de St Marc
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528830398419, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 13.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528830398419, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528830398419, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528830398419, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528037412411, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall149
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528569243648, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.153
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528569243648, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4674
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528569243648, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.28374255
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528569243648, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3746986
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528569243651, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d424afc7db2181044a77942ee37631f5,
+        type: 3}
+    - target: {fileID: 7781242527559638591, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Mme Clemie Gaetjens Brouard
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527559638591, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 17.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527559638591, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527559638591, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527559638591, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528588781563, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529035657002, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.156
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529035657002, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4789
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529035657002, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2743338
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529035657002, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2829104
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529035656981, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1bb6249bf7ad7bf4d9825c96aa2a9622,
+        type: 3}
+    - target: {fileID: 7781242527200588849, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.461
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527200588849, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.765
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527200588849, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1.5046
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527200588848, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "Am\xE9lie Manigat"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527200588848, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528862168500, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall151
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527625585704, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1437
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527625585704, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.476
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527625585704, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25695023
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527625585704, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3728838
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527625585707, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c9692bf117cc26644bc56ae0526f7042,
+        type: 3}
+    - target: {fileID: 7781242529095841562, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Mme Edmond Mangones
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529095841562, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 30.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529095841562, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529095841562, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529095841562, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529000869970, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall152
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529111475558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529111475558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.457
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529111475558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.63425887
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529111475558, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.87772363
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529111475553, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 10ccdef0becac8c4895b0ca3c0d12b01,
+        type: 3}
+    - target: {fileID: 7781242527318498000, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.443
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527318498000, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.781
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527318498000, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1.5887
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527318498000, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527318498003, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Mme David Mathieu
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527318498003, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 37.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527318498003, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527318498003, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527318498003, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527264219787, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall153
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528480752111, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.146
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528480752111, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.494
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528480752111, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.24852113
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528480752111, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3625556
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528480752110, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d3d278d4a705c1c4db60cc19c1db3e0a,
+        type: 3}
+    - target: {fileID: 7781242528097616265, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Melle Lucienne St Aude
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528097616265, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 33.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528097616265, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528097616265, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528097616265, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528065074457, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall154
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528379540178, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3893
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528379540178, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4347
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528379540178, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6257548
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528379540178, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.740857
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528379540189, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 63fe8accbcd5ac94f8690dea4ac4183a,
+        type: 3}
+    - target: {fileID: 7781242527247490489, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.424
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527247490489, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.0854
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527247490488, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Saint Domingue
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527247490488, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 19.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527247490488, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527247490488, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527247490488, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527247490488, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242529178783946, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall155
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528783662511, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c0a823f55f6229e43867c5e900340334,
+        type: 3}
+    - target: {fileID: 7781242527629520992, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.579
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527629520995, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: "Vodou c\xE9r\xE9monie Ogoun"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527629520995, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527629520995, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527629520995, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528647585641, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall156
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527813678598, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.167
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527813678598, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4651
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527813678598, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.63589066
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527813678598, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0832294
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527813678593, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4feeb75a6662561479f3dd77f2359aa0,
+        type: 3}
+    - target: {fileID: 7781242527998728463, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.464
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527998728463, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0.99909
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527998728462, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Yvonne Hakime
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527998728462, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528827173005, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall157
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528503407692, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.251
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528503407692, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4607
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528503407692, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.390396
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528503407692, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.103172
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528503407695, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 275ce0e4fdf11914fb2ffce8fde5542a,
+        type: 3}
+    - target: {fileID: 7781242527551835587, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Zora Neal Hurston en Haiti
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527551835587, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 4.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527551835587, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527551835587, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527551835587, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528754517163, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall158
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527846784017, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.194
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527846784017, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4353
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527846784017, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3134409
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527846784017, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.83496886
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527846784016, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 92c3fdbfa7af3ab40b3d3783aa92bfd4,
+        type: 3}
+    - target: {fileID: 7781242528873149910, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4497
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528873149910, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.714
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528873149910, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1.2874
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528873149910, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.132
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528873149905, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: Toto Bissainthe
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528873149905, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_characterSpacing
+      value: 14.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528873149905, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528873149905, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528873149905, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527935776017, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall159
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527259228798, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242527259228798, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528630790407, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528630790407, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528630790407, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528630790407, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528630790407, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781242528630790407, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6188212107431793535, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 1533b903ee894f147afa83c86d428068,
+        type: 3}
+    - target: {fileID: 6188212107431793532, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3c5aa78e3db13fe41b45800412458616, type: 3}
+    - target: {fileID: 785975401640278203, guid: cfb9e23237b350d47820d0241228f374,
+        type: 3}
+      propertyPath: m_Name
+      value: Texts4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cfb9e23237b350d47820d0241228f374, type: 3}
