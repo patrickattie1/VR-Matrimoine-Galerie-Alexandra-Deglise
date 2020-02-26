@@ -27,346 +27,351 @@ using System.Diagnostics;
 using Debug = UnityEngine.Debug;
 using System.Threading;
 
-[RequireComponent(typeof(AudioSource))]
-
-public class OVRLipSyncMicInput : MonoBehaviour
+namespace MAAC
 {
-    public enum micActivation
+
+    [RequireComponent(typeof(AudioSource))]
+
+    public class OVRLipSyncMicInput : MonoBehaviour
     {
-        HoldToSpeak,
-        PushToSpeak,
-        ConstantSpeak
-    }
-
-    // PUBLIC MEMBERS
-    [Tooltip("Manual specification of Audio Source - " +
-        "by default will use any attached to the same object.")]
-    public AudioSource audioSource = null;
-
-
-    [Tooltip("Enable a keypress to toggle the microphone device selection GUI.")]
-    public bool enableMicSelectionGUI = false;
-    [Tooltip("Key to toggle the microphone selection GUI if enabled.")]
-    public KeyCode micSelectionGUIKey = KeyCode.M;
-
-    [SerializeField]
-    [Range(0.0f, 100.0f)]
-    [Tooltip("Microphone input volume control.")]
-    private float micInputVolume = 100;
-
-    [SerializeField]
-    [Tooltip("Requested microphone input frequency")]
-    private int micFrequency = 48000;
-    public float MicFrequency
-    {
-        get { return micFrequency; }
-        set { micFrequency = (int)Mathf.Clamp((float)value, 0, 96000); }
-    }
-
-    [Tooltip("Microphone input control method. Hold To Speak and Push" +
-        " To Speak are driven with the Mic Activation Key.")]
-    public micActivation micControl = micActivation.ConstantSpeak;
-    [Tooltip("Key used to drive Hold To Speak and Push To Speak methods" +
-        " of microphone input control.")]
-    public KeyCode micActivationKey = KeyCode.Space;
-
-    [Tooltip("Will contain the string name of the selected microphone device - read only.")]
-    public string selectedDevice;
-
-    // PRIVATE MEMBERS
-    private bool micSelected = false;
-    private int minFreq, maxFreq;
-    private bool focused = true;
-    private bool initialized = false;
-
-    //----------------------------------------------------
-    // MONOBEHAVIOUR OVERRIDE FUNCTIONS
-    //----------------------------------------------------
-
-    /// <summary>
-    /// Awake this instance.
-    /// </summary>
-    void Awake()
-    {
-        // First thing to do, cache the unity audio source (can be managed by the
-        // user if audio source can change)
-        if (!audioSource) audioSource = GetComponent<AudioSource>();
-        if (!audioSource) return; // this should never happen
-    }
-
-    /// <summary>
-    /// Start this instance.
-    /// </summary>
-    void Start()
-    {
-        audioSource.loop = true;     // Set the AudioClip to loop
-        audioSource.mute = false;
-
-        InitializeMicrophone();
-    }
-
-    /// <summary>
-    /// Initializes the microphone.
-    /// </summary>
-    private void InitializeMicrophone()
-    {
-        if (initialized)
+        public enum micActivation
         {
-            return;
-        }
-        if (Microphone.devices.Length == 0)
-        {
-            return;
-        }
-        selectedDevice = Microphone.devices[0].ToString();
-        micSelected = true;
-        GetMicCaps();
-        initialized = true;
-    }
-
-
-    /// <summary>
-    /// Update this instance.
-    /// </summary>
-    void Update()
-    {
-        if (!focused)
-        {
-            if (Microphone.IsRecording(selectedDevice))
-            {
-                StopMicrophone();
-            }
-            return;
+            HoldToSpeak,
+            PushToSpeak,
+            ConstantSpeak
         }
 
-        if (!Application.isPlaying)
+        // PUBLIC MEMBERS
+        [Tooltip("Manual specification of Audio Source - " +
+            "by default will use any attached to the same object.")]
+        public AudioSource audioSource = null;
+
+
+        [Tooltip("Enable a keypress to toggle the microphone device selection GUI.")]
+        public bool enableMicSelectionGUI = false;
+        [Tooltip("Key to toggle the microphone selection GUI if enabled.")]
+        public KeyCode micSelectionGUIKey = KeyCode.M;
+
+        [SerializeField]
+        [Range(0.0f, 100.0f)]
+        [Tooltip("Microphone input volume control.")]
+        private float micInputVolume = 100;
+
+        [SerializeField]
+        [Tooltip("Requested microphone input frequency")]
+        private int micFrequency = 48000;
+        public float MicFrequency
         {
-            StopMicrophone();
-            return;
+            get { return micFrequency; }
+            set { micFrequency = (int)Mathf.Clamp((float)value, 0, 96000); }
         }
 
-        // Lazy Microphone initialization (needed on Android)
-        if (!initialized)
+        [Tooltip("Microphone input control method. Hold To Speak and Push" +
+            " To Speak are driven with the Mic Activation Key.")]
+        public micActivation micControl = micActivation.ConstantSpeak;
+        [Tooltip("Key used to drive Hold To Speak and Push To Speak methods" +
+            " of microphone input control.")]
+        public KeyCode micActivationKey = KeyCode.Space;
+
+        [Tooltip("Will contain the string name of the selected microphone device - read only.")]
+        public string selectedDevice;
+
+        // PRIVATE MEMBERS
+        private bool micSelected = false;
+        private int minFreq, maxFreq;
+        private bool focused = true;
+        private bool initialized = false;
+
+        //----------------------------------------------------
+        // MONOBEHAVIOUR OVERRIDE FUNCTIONS
+        //----------------------------------------------------
+
+        /// <summary>
+        /// Awake this instance.
+        /// </summary>
+        void Awake()
         {
+            // First thing to do, cache the unity audio source (can be managed by the
+            // user if audio source can change)
+            if (!audioSource) audioSource = GetComponent<AudioSource>();
+            if (!audioSource) return; // this should never happen
+        }
+
+        /// <summary>
+        /// Start this instance.
+        /// </summary>
+        void Start()
+        {
+            audioSource.loop = true;     // Set the AudioClip to loop
+            audioSource.mute = false;
+
             InitializeMicrophone();
         }
 
-        audioSource.volume = (micInputVolume / 100);
-
-        //Hold To Speak
-        if (micControl == micActivation.HoldToSpeak)
+        /// <summary>
+        /// Initializes the microphone.
+        /// </summary>
+        private void InitializeMicrophone()
         {
-            if (Input.GetKey(micActivationKey))
+            if (initialized)
             {
-                if (!Microphone.IsRecording(selectedDevice))
+                return;
+            }
+            ////if (Microphone.devices.Length == 0)
+            ////{
+            ////    return;
+            ////}
+            ////selectedDevice = Microphone.devices[0].ToString();
+            micSelected = true;
+            GetMicCaps();
+            initialized = true;
+        }
+
+
+        /// <summary>
+        /// Update this instance.
+        /// </summary>
+        void Update()
+        {
+            if (!focused)
+            {
+                ////if (Microphone.IsRecording(selectedDevice))
+                ////{
+                ////    StopMicrophone();
+                ////}
+                return;
+            }
+
+            if (!Application.isPlaying)
+            {
+                StopMicrophone();
+                return;
+            }
+
+            // Lazy Microphone initialization (needed on Android)
+            if (!initialized)
+            {
+                InitializeMicrophone();
+            }
+
+            audioSource.volume = (micInputVolume / 100);
+
+            //Hold To Speak
+            if (micControl == micActivation.HoldToSpeak)
+            {
+                if (Input.GetKey(micActivationKey))
                 {
-                    StartMicrophone();
+                    ////if (!Microphone.IsRecording(selectedDevice))
+                    ////{
+                    ////    StartMicrophone();
+                    ////}
+                }
+                else
+                {
+                    ////if (Microphone.IsRecording(selectedDevice))
+                    ////{
+                    ////    StopMicrophone();
+                    ////}
                 }
             }
-            else
+
+            //Push To Talk
+            if (micControl == micActivation.PushToSpeak)
             {
-                if (Microphone.IsRecording(selectedDevice))
+                if (Input.GetKeyDown(micActivationKey))
                 {
-                    StopMicrophone();
+                    ////if (Microphone.IsRecording(selectedDevice))
+                    ////{
+                    ////    StopMicrophone();
+                    ////}
+                    ////else if (!Microphone.IsRecording(selectedDevice))
+                    ////{
+                    ////    StartMicrophone();
+                    ////}
+                }
+            }
+
+            //Constant Speak
+            if (micControl == micActivation.ConstantSpeak)
+            {
+                ////if (!Microphone.IsRecording(selectedDevice))
+                ////{
+                ////    StartMicrophone();
+                ////}
+            }
+
+
+            //Mic Selected = False
+            if (enableMicSelectionGUI)
+            {
+                if (Input.GetKeyDown(micSelectionGUIKey))
+                {
+                    micSelected = false;
                 }
             }
         }
 
-        //Push To Talk
-        if (micControl == micActivation.PushToSpeak)
+
+        /// <summary>
+        /// Raises the application focus event.
+        /// </summary>
+        /// <param name="focus">If set to <c>true</c>: focused.</param>
+        void OnApplicationFocus(bool focus)
         {
-            if (Input.GetKeyDown(micActivationKey))
-            {
-                if (Microphone.IsRecording(selectedDevice))
-                {
-                    StopMicrophone();
-                }
-                else if (!Microphone.IsRecording(selectedDevice))
-                {
-                    StartMicrophone();
-                }
-            }
+            focused = focus;
+
+            if (!focused)
+                StopMicrophone();
         }
 
-        //Constant Speak
-        if (micControl == micActivation.ConstantSpeak)
+        /// <summary>
+        /// Raises the application pause event.
+        /// </summary>
+        /// <param name="pauseStatus">If set to <c>true</c>: paused.</param>
+        void OnApplicationPause(bool pauseStatus)
         {
-            if (!Microphone.IsRecording(selectedDevice))
-            {
-                StartMicrophone();
-            }
+            focused = !pauseStatus;
+
+            if (!focused)
+                StopMicrophone();
         }
 
-
-        //Mic Selected = False
-        if (enableMicSelectionGUI)
+        void OnDisable()
         {
-            if (Input.GetKeyDown(micSelectionGUIKey))
-            {
-                micSelected = false;
-            }
-        }
-    }
-
-
-    /// <summary>
-    /// Raises the application focus event.
-    /// </summary>
-    /// <param name="focus">If set to <c>true</c>: focused.</param>
-    void OnApplicationFocus(bool focus)
-    {
-        focused = focus;
-
-        if (!focused)
             StopMicrophone();
-    }
+        }
 
-    /// <summary>
-    /// Raises the application pause event.
-    /// </summary>
-    /// <param name="pauseStatus">If set to <c>true</c>: paused.</param>
-    void OnApplicationPause(bool pauseStatus)
-    {
-        focused = !pauseStatus;
-
-        if (!focused)
-            StopMicrophone();
-    }
-
-    void OnDisable()
-    {
-        StopMicrophone();
-    }
-
-    /// <summary>
-    /// Raises the GU event.
-    /// </summary>
-    void OnGUI()
-    {
-        MicDeviceGUI((Screen.width / 2) - 150, (Screen.height / 2) - 75, 300, 50, 10, -300);
-    }
-
-    //----------------------------------------------------
-    // PUBLIC FUNCTIONS
-    //----------------------------------------------------
-
-    /// <summary>
-    /// Mics the device GU.
-    /// </summary>
-    /// <param name="left">Left.</param>
-    /// <param name="top">Top.</param>
-    /// <param name="width">Width.</param>
-    /// <param name="height">Height.</param>
-    /// <param name="buttonSpaceTop">Button space top.</param>
-    /// <param name="buttonSpaceLeft">Button space left.</param>
-    public void MicDeviceGUI(
-        float left,
-        float top,
-        float width,
-        float height,
-        float buttonSpaceTop,
-        float buttonSpaceLeft)
-    {
-        //If there is more than one device, choose one.
-        if (Microphone.devices.Length >= 1 && enableMicSelectionGUI == true && micSelected == false)
+        /// <summary>
+        /// Raises the GU event.
+        /// </summary>
+        void OnGUI()
         {
-            for (int i = 0; i < Microphone.devices.Length; ++i)
+            MicDeviceGUI((Screen.width / 2) - 150, (Screen.height / 2) - 75, 300, 50, 10, -300);
+        }
+
+        //----------------------------------------------------
+        // PUBLIC FUNCTIONS
+        //----------------------------------------------------
+
+        /// <summary>
+        /// Mics the device GU.
+        /// </summary>
+        /// <param name="left">Left.</param>
+        /// <param name="top">Top.</param>
+        /// <param name="width">Width.</param>
+        /// <param name="height">Height.</param>
+        /// <param name="buttonSpaceTop">Button space top.</param>
+        /// <param name="buttonSpaceLeft">Button space left.</param>
+        public void MicDeviceGUI(
+            float left,
+            float top,
+            float width,
+            float height,
+            float buttonSpaceTop,
+            float buttonSpaceLeft)
+        {
+            //If there is more than one device, choose one.
+            ////if (Microphone.devices.Length >= 1 && enableMicSelectionGUI == true && micSelected == false)
+            ////{
+            ////    for (int i = 0; i < Microphone.devices.Length; ++i)
+            ////    {
+            ////        if (GUI.Button(new Rect(left + ((width + buttonSpaceLeft) * i),
+            ////                                top + ((height + buttonSpaceTop) * i), width, height),
+            ////                       Microphone.devices[i].ToString()))
+            ////        {
+            ////            StopMicrophone();
+            ////            selectedDevice = Microphone.devices[i].ToString();
+            ////            micSelected = true;
+            ////            GetMicCaps();
+            ////            StartMicrophone();
+            ////        }
+            ////    }
+            ////}
+        }
+
+        /// <summary>
+        /// Gets the mic caps.
+        /// </summary>
+        public void GetMicCaps()
+        {
+            if (micSelected == false) return;
+
+            //Gets the frequency of the device
+            ////Microphone.GetDeviceCaps(selectedDevice, out minFreq, out maxFreq);
+
+            if (minFreq == 0 && maxFreq == 0)
             {
-                if (GUI.Button(new Rect(left + ((width + buttonSpaceLeft) * i),
-                                        top + ((height + buttonSpaceTop) * i), width, height),
-                               Microphone.devices[i].ToString()))
-                {
-                    StopMicrophone();
-                    selectedDevice = Microphone.devices[i].ToString();
-                    micSelected = true;
-                    GetMicCaps();
-                    StartMicrophone();
-                }
+                Debug.LogWarning("GetMicCaps warning:: min and max frequencies are 0");
+                minFreq = 44100;
+                maxFreq = 44100;
             }
+
+            if (micFrequency > maxFreq)
+                micFrequency = maxFreq;
         }
-    }
 
-    /// <summary>
-    /// Gets the mic caps.
-    /// </summary>
-    public void GetMicCaps()
-    {
-        if (micSelected == false) return;
-
-        //Gets the frequency of the device
-        Microphone.GetDeviceCaps(selectedDevice, out minFreq, out maxFreq);
-
-        if (minFreq == 0 && maxFreq == 0)
+        /// <summary>
+        /// Starts the microphone.
+        /// </summary>
+        public void StartMicrophone()
         {
-            Debug.LogWarning("GetMicCaps warning:: min and max frequencies are 0");
-            minFreq = 44100;
-            maxFreq = 44100;
+            if (micSelected == false) return;
+
+            //Starts recording
+            ////audioSource.clip = Microphone.Start(selectedDevice, true, 1, micFrequency);
+
+            Stopwatch timer = Stopwatch.StartNew();
+
+            // Wait until the recording has started
+            ////while (!(Microphone.GetPosition(selectedDevice) > 0) && timer.Elapsed.TotalMilliseconds < 1000)
+            ////{
+            ////    Thread.Sleep(50);
+            ////}
+
+            ////if (Microphone.GetPosition(selectedDevice) <= 0)
+            ////{
+            ////    throw new Exception("Timeout initializing microphone " + selectedDevice);
+            ////}
+            // Play the audio source
+            audioSource.Play();
         }
 
-        if (micFrequency > maxFreq)
-            micFrequency = maxFreq;
-    }
-
-    /// <summary>
-    /// Starts the microphone.
-    /// </summary>
-    public void StartMicrophone()
-    {
-        if (micSelected == false) return;
-
-        //Starts recording
-        audioSource.clip = Microphone.Start(selectedDevice, true, 1, micFrequency);
-
-        Stopwatch timer = Stopwatch.StartNew();
-
-        // Wait until the recording has started
-        while (!(Microphone.GetPosition(selectedDevice) > 0) && timer.Elapsed.TotalMilliseconds < 1000) {
-            Thread.Sleep(50);
-        }
-
-        if (Microphone.GetPosition(selectedDevice) <= 0)
+        /// <summary>
+        /// Stops the microphone.
+        /// </summary>
+        public void StopMicrophone()
         {
-            throw new Exception("Timeout initializing microphone " + selectedDevice);
+            if (micSelected == false) return;
+
+            // Overriden with a clip to play? Don't stop the audio source
+            if ((audioSource != null) &&
+                (audioSource.clip != null) &&
+                (audioSource.clip.name == "Microphone"))
+            {
+                audioSource.Stop();
+            }
+
+            // Reset to stop mouth movement
+            OVRLipSyncContext context = GetComponent<OVRLipSyncContext>();
+            context.ResetContext();
+
+            ////Microphone.End(selectedDevice);
         }
-        // Play the audio source
-        audioSource.Play();
-    }
 
-    /// <summary>
-    /// Stops the microphone.
-    /// </summary>
-    public void StopMicrophone()
-    {
-        if (micSelected == false) return;
 
-        // Overriden with a clip to play? Don't stop the audio source
-        if ((audioSource != null) &&
-            (audioSource.clip != null) &&
-            (audioSource.clip.name == "Microphone"))
+        //----------------------------------------------------
+        // PRIVATE FUNCTIONS
+        //----------------------------------------------------
+
+        /// <summary>
+        /// Gets the averaged volume.
+        /// </summary>
+        /// <returns>The averaged volume.</returns>
+        float GetAveragedVolume()
         {
-            audioSource.Stop();
+            // We will use the SR to get average volume
+            // return OVRSpeechRec.GetAverageVolume();
+            return 0.0f;
         }
-
-        // Reset to stop mouth movement
-        OVRLipSyncContext context = GetComponent<OVRLipSyncContext>();
-        context.ResetContext();
-
-        Microphone.End(selectedDevice);
-    }
-
-
-    //----------------------------------------------------
-    // PRIVATE FUNCTIONS
-    //----------------------------------------------------
-
-    /// <summary>
-    /// Gets the averaged volume.
-    /// </summary>
-    /// <returns>The averaged volume.</returns>
-    float GetAveragedVolume()
-    {
-        // We will use the SR to get average volume
-        // return OVRSpeechRec.GetAverageVolume();
-        return 0.0f;
     }
 }
