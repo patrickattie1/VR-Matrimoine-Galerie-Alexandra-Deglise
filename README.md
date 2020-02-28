@@ -1,4 +1,6 @@
-# VR-HaitianHistoryGallery1-AmericanOccupation, Virtual Gallery as a tribute to the Haitian history, American Occupation, February 2020
+# VR-Matrimoine - MAAC, février 2020, Galerie virtuelle des pavillons pays, projet Matrimoine-Afro-Américano-Caribéen (MAAC)
+
+Créée avec Unity version 2019.3.2f1
 
 Créé pour le projet Matrimoine en Février 2020
 
