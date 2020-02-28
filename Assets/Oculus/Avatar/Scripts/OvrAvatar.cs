@@ -1025,14 +1025,14 @@ using UnityEngine.Events;
 
             int selectedDeviceIndex = 0;
 #if UNITY_STANDALONE_WIN
-        for (int i = 1; i < devices.Length; i++)
-        {
-            if (devices[i].ToUpper().Contains("RIFT"))
-            {
-                selectedDeviceIndex = i;
-                break;
-            }
-        }
+        ////for (int i = 1; i < devices.Length; i++)
+        ////{
+        ////    if (devices[i].ToUpper().Contains("RIFT"))
+        ////    {
+        ////        selectedDeviceIndex = i;
+        ////        break;
+        ////    }
+        ////}
 #endif
 
             ////string selectedDevice = devices[selectedDeviceIndex];
