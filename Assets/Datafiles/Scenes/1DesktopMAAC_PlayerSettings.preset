@@ -241,10 +241,6 @@ Preset:
     value: -1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: displayResolutionDialog
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: iosUseCustomAppBackgroundBehavior
     value: 0
     objectReference: {fileID: 0}
@@ -373,10 +369,6 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: graphicsJobs
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: xboxPIXTextureCapture
     value: 0
     objectReference: {fileID: 0}
@@ -403,10 +395,6 @@ Preset:
   - target: {fileID: 0}
     propertyPath: allowFullscreenSwitch
     value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: graphicsJobMode
-    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: fullscreenMode
@@ -457,6 +445,10 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
+    propertyPath: xboxOneEnableTypeOptimization
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
     propertyPath: xboxOnePresentImmediateThreshold
     value: 0
     objectReference: {fileID: 0}
@@ -483,6 +475,10 @@ Preset:
   - target: {fileID: 0}
     propertyPath: switchNVNOtherPoolsGranularity
     value: 16777216
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: vulkanNumSwapchainBuffers
+    value: 3
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: vulkanEnableSetSRGBWrite
@@ -609,6 +605,14 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
+    propertyPath: vrSettings.oculus.protectedContext
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: vrSettings.oculus.v2Signing
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
     propertyPath: vrSettings.enable360StereoCapture
     value: 0
     objectReference: {fileID: 0}
@@ -617,15 +621,15 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: protectGraphicsMemory
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: enableFrameTimingStats
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: useHDRDisplay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: D3DHDRBitDepth
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
@@ -726,7 +730,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: iOSTargetOSVersionString
-    value: 9.0
+    value: 10.0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: tvOSSdkVersion
@@ -738,7 +742,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: tvOSTargetOSVersionString
-    value: 9.0
+    value: 10.0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: uIPrerenderedIcon
@@ -1091,10 +1095,6 @@ Preset:
   - target: {fileID: 0}
     propertyPath: AndroidAppBundleSizeToValidate
     value: 150
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: resolutionDialogBanner
-    value: 
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_BuildTargetIcons.Array.size
@@ -1501,6 +1501,14 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
+    propertyPath: m_BuildTargetGraphicsJobs.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_BuildTargetGraphicsJobMode.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
     propertyPath: m_BuildTargetGraphicsAPIs.Array.size
     value: 0
     objectReference: {fileID: 0}
@@ -1534,10 +1542,6 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: openGLRequireES32
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: vuforiaEnabled
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
@@ -2013,6 +2017,10 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
+    propertyPath: switchRatingsInt_12
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
     propertyPath: switchLocalCommunicationIds_0
     value: 
     objectReference: {fileID: 0}
@@ -2409,6 +2417,10 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
+    propertyPath: ps4attribVROutputEnabled
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
     propertyPath: monoEnv
     value: 
     objectReference: {fileID: 0}
@@ -2797,10 +2809,6 @@ Preset:
     value: 8
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: xboxOneScriptCompiler
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: XboxOneOverrideIdentityName
     value: 
     objectReference: {fileID: 0}
@@ -2847,34 +2855,6 @@ Preset:
   - target: {fileID: 0}
     propertyPath: luminVersion.m_VersionName
     value: 
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: facebookSdkVersion
-    value: 
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: facebookAppId
-    value: 
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: facebookCookies
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: facebookLogging
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: facebookStatus
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: facebookXfbml
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: facebookFrictionlessRequests
-    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: apiCompatibilityLevel

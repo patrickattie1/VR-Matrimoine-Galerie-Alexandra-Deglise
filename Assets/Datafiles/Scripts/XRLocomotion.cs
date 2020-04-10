@@ -16,18 +16,18 @@ public class XRLocomotion : MonoBehaviour
     //  Note: Nothing means that the RayCast will hit nothing.
     public LayerMask raycastMask;
 
-    private float movingSpeed = 3.0f;
+    private float movingSpeed = 2.0f;
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetButton(trackpadPress))
         {
-            movingSpeed = 3.0f;
+            movingSpeed = 5.0f;
         }
         else
         {
-            movingSpeed = 1.0f;
+            movingSpeed = 2.0f;
         }
 
         // Record the position on the x and y axis of where the thum is placed on trackpad (or where joystic pushed)

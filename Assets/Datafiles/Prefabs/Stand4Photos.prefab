@@ -58,6 +58,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -90,11 +91,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3283334125021278470}
     m_Modifications:
-    - target: {fileID: 2606829765383379114, guid: 264f16be9113b114592debd5d3ff5774,
-        type: 3}
-      propertyPath: m_Name
-      value: PhotoWall2
-      objectReference: {fileID: 0}
     - target: {fileID: 2606829765382947978, guid: 264f16be9113b114592debd5d3ff5774,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -155,6 +151,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.4756873
       objectReference: {fileID: 0}
+    - target: {fileID: 2606829765383379114, guid: 264f16be9113b114592debd5d3ff5774,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6429301466180584579, guid: 264f16be9113b114592debd5d3ff5774,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 264f16be9113b114592debd5d3ff5774, type: 3}
 --- !u!4 &2819582554936789690 stripped
@@ -170,11 +176,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3283334125021278470}
     m_Modifications:
-    - target: {fileID: 2606829765383379114, guid: 264f16be9113b114592debd5d3ff5774,
-        type: 3}
-      propertyPath: m_Name
-      value: PhotoWall3
-      objectReference: {fileID: 0}
     - target: {fileID: 2606829765382947978, guid: 264f16be9113b114592debd5d3ff5774,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -235,6 +236,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.47568667
       objectReference: {fileID: 0}
+    - target: {fileID: 2606829765383379114, guid: 264f16be9113b114592debd5d3ff5774,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6429301466180584579, guid: 264f16be9113b114592debd5d3ff5774,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 264f16be9113b114592debd5d3ff5774, type: 3}
 --- !u!4 &3983946606371461294 stripped
@@ -250,11 +261,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3283334125021278470}
     m_Modifications:
-    - target: {fileID: 2606829765383379114, guid: 264f16be9113b114592debd5d3ff5774,
-        type: 3}
-      propertyPath: m_Name
-      value: PhotoWall1
-      objectReference: {fileID: 0}
     - target: {fileID: 2606829765382947978, guid: 264f16be9113b114592debd5d3ff5774,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -315,6 +321,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.47568667
       objectReference: {fileID: 0}
+    - target: {fileID: 2606829765383379114, guid: 264f16be9113b114592debd5d3ff5774,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6429301466180584579, guid: 264f16be9113b114592debd5d3ff5774,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 264f16be9113b114592debd5d3ff5774, type: 3}
 --- !u!4 &8611729187248692571 stripped
@@ -330,11 +346,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3283334125021278470}
     m_Modifications:
-    - target: {fileID: 2606829765383379114, guid: 264f16be9113b114592debd5d3ff5774,
-        type: 3}
-      propertyPath: m_Name
-      value: PhotoWall4
-      objectReference: {fileID: 0}
     - target: {fileID: 2606829765382947978, guid: 264f16be9113b114592debd5d3ff5774,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -394,6 +405,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 0.4756866
+      objectReference: {fileID: 0}
+    - target: {fileID: 2606829765383379114, guid: 264f16be9113b114592debd5d3ff5774,
+        type: 3}
+      propertyPath: m_Name
+      value: PhotoWall4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6429301466180584579, guid: 264f16be9113b114592debd5d3ff5774,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 264f16be9113b114592debd5d3ff5774, type: 3}

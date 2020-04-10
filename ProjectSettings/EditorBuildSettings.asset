@@ -6,6 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Datafiles/Scenes/1DesktopMAAC.unity
-    guid: 49bc25245ca8dd646bfdcd658075a160
-  m_configObjects: {}
+    path: Assets/Datafiles/Scenes/3QuestADeglise.unity
+    guid: db206d0dc19f698499016f5e3cb13448
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: caa620c855de5e840aae93aab4627d61,
+      type: 2}
